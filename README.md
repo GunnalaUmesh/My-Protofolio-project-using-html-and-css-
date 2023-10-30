@@ -58,6 +58,7 @@
         body, h1, h2, h3, p, ul {
         margin: 0;
         padding: 0;
+        
     }
     ul {
         list-style-type: none;
@@ -65,18 +66,13 @@
     li {
         display: inline;
         margin: 10px;
-    }
-    header {
-        background-color: #333;
-        color: #fff;
-        text-align: center;
-        padding: 20px;
+        border: black;
     }
     section {
         padding: 20px;
         margin: 20px;
-        background-color: #f5f5f5;
-        border: 1px solid #ddd;
+        background-color: gray;
+        border: 1px solid black;
     }
     project {
         margin: 10px 0;
